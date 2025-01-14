@@ -14,10 +14,6 @@ The goal of this project is to explore employee attrition in the healthcare indu
 - Employee sentiment analysis and key attributes influencing job satisfaction.
 - Model interpretation and feature importance to guide healthcare management decisions.
 
-### Problem Statement
-
-Employee attrition is a persistent challenge in the US healthcare system, with high turnover rates leading to increased recruitment and training costs and reduced care quality. This project aims to uncover patterns in employee departure, analyze contributing factors, and provide insights into how healthcare institutions can mitigate these challenges.
-
 ### Datasets
 
 #### Watson Healthcare Attrition Dataset
@@ -27,10 +23,9 @@ Employee attrition is a persistent challenge in the US healthcare system, with h
 - Employee-related features such as age, job satisfaction, work-life balance, and education.
 - Synthetic data, with modifications to roles and outcomes to enhance machine learning performance.
 
-#### Watson SHAP Values Dataset
+### Problem Statement
 
-- Provides SHAP (Shapley Additive Explanations) values for model interpretation.
-- Helps explain the contribution of each feature to the prediction of employee attrition.
+Employee attrition is a persistent challenge in the US healthcare system, with high turnover rates leading to increased recruitment and training costs and reduced care quality. This project aims to uncover patterns in employee departure, analyze contributing factors, and provide insights into how healthcare institutions can mitigate these challenges.
 
 ### Solution Approach
 
@@ -72,21 +67,9 @@ Employee attrition is a persistent challenge in the US healthcare system, with h
 - Employee age had a mild positive skew, with younger employees (under 30) exhibiting higher attrition.
 - The MonthlyIncome variable showed high skewness, with a large portion of employees having low to average income.
 
-#### Model Performance:
-
-- The RandomForest model achieved an accuracy of 91%, with precision for attrition (Yes) at 0.67, recall at 0.50, and a f1-score of 0.57.
-
 #### Feature Importance:
 
 - The most important features influencing employee attrition were JobLevel, MonthlyIncome, and JobSatisfaction.
-
-#### Insights from SHAP:
-
-- Job satisfaction and work-life balance were key drivers of employee attrition, with JobLevel and MonthlyIncome playing a significant role.
-
-### Conclusion
-
-This analysis highlights key predictors of employee attrition in the healthcare sector, providing actionable insights for HR and management teams to focus on improving employee satisfaction, work-life balance, and career development opportunities. By understanding these factors, healthcare institutions can better retain their workforce and reduce the costs associated with high attrition.
 
 ### Future Work
 
