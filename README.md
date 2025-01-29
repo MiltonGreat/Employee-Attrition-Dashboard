@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project aims to analyze employee attrition within the US healthcare sector, a critical issue with a significant impact on healthcare delivery. By utilizing machine learning models and analytics, the project investigates the factors contributing to high attrition rates, the key predictors of employee departure, and potential solutions for reducing turnover. The analysis uses synthetic data based on the IBM Watson Healthcare dataset, modified to reflect healthcare-specific roles and departments.
+This project aims to analyze employee attrition in the US healthcare sector, a critical issue with a significant impact on healthcare delivery. By utilizing machine learning models and analytics, the project investigates the factors contributing to high attrition rates, the key predictors of employee departure, and potential solutions for reducing turnover. The analysis uses synthetic data based on the IBM Watson Healthcare dataset, modified to reflect healthcare-specific roles and departments.
 
 ### Objective
 
@@ -14,6 +14,10 @@ The goal of this project is to explore employee attrition in the healthcare indu
 - Employee sentiment analysis and key attributes influencing job satisfaction.
 - Model interpretation and feature importance to guide healthcare management decisions.
 
+### Problem Statement
+
+Employee attrition is a persistent challenge in the US healthcare system, with high turnover rates leading to increased recruitment and training costs and reduced care quality. This project aims to uncover patterns in employee departure, analyze contributing factors, and provide insights into how healthcare institutions can mitigate these challenges.
+
 ### Datasets
 
 #### Watson Healthcare Attrition Dataset
@@ -22,10 +26,6 @@ The goal of this project is to explore employee attrition in the healthcare indu
 - The target variable: Attrition (whether an employee left or not).
 - Employee-related features such as age, job satisfaction, work-life balance, and education.
 - Synthetic data, with modifications to roles and outcomes to enhance machine learning performance.
-
-### Problem Statement
-
-Employee attrition is a persistent challenge in the US healthcare system, with high turnover rates leading to increased recruitment and training costs and reduced care quality. This project aims to uncover patterns in employee departure, analyze contributing factors, and provide insights into how healthcare institutions can mitigate these challenges.
 
 ### Solution Approach
 
@@ -79,5 +79,4 @@ Employee attrition is a persistent challenge in the US healthcare system, with h
 
 ### Sources
 
-https://www.kaggle.com/datasets/jpmiller/employee-attrition-for-healthcare/data
-
+Dataset: [Employee Attrition for Healthcare Dataset on Kaggle](https://www.kaggle.com/datasets/jpmiller/employee-attrition-for-healthcare/data)
