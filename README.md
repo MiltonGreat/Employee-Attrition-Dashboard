@@ -6,13 +6,11 @@ This project aims to analyze employee attrition in the US healthcare sector, a c
 
 ### Objective
 
-The goal of this project is to explore employee attrition in the healthcare industry and provide actionable insights into:
+The goal of this project is to explore employee attrition in the healthcare industry:
 
 - Factors contributing to employee attrition in healthcare.
 - Key predictors of employee turnover.
-- Imbalanced dataset challenges and solutions, including handling class imbalance.
 - Employee sentiment analysis and key attributes influencing job satisfaction.
-- Model interpretation and feature importance to guide healthcare management decisions.
 
 ### Problem Statement
 
@@ -58,18 +56,17 @@ Employee attrition is a persistent challenge in the US healthcare system, with h
 
 ### Key Findings
 
-#### Class Imbalance:
+#### Over Time and Job Satisfaction
+Investigate if employees who work overtime have lower job satisfaction, as that could lead to higher attrition. This can guide policy changes around workload distribution and employee well-being.
 
-- The dataset had a significant imbalance, with a ratio of 7.42:1 between non-attrition (No) and attrition (Yes) employees.
+#### Tenure and Attrition
+Since longer tenure is correlated with lower attrition, explore if long-term employees are being overlooked in terms of career development opportunities. They might also need more engagement or new challenges to stay motivated.
 
-#### Employee Demographics:
+#### Stock Option Levels and Attrition
+Further analysis could be done on why employees with higher stock option levels leave more frequently. Perhaps the stock options are not seen as a sufficient long-term incentive.
 
-- Employee age had a mild positive skew, with younger employees (under 30) exhibiting higher attrition.
-- The MonthlyIncome variable showed high skewness, with a large portion of employees having low to average income.
-
-#### Feature Importance:
-
-- The most important features influencing employee attrition were JobLevel, MonthlyIncome, and JobSatisfaction.
+#### Age and Attrition
+Explore whether younger employees (likely early in their careers) have higher attrition rates and whether that’s due to personal growth, better career opportunities, or dissatisfaction.
 
 ### Future Work
 
